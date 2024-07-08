@@ -14,13 +14,13 @@ const Savings = () => {
             more opportunities than ever at your finger tips. Why not take
             advantage today?
           </p>
-          <button className="bg-transparent border border-white rounded-full py-3 px-6 text-lg flex items-center justify-center space-x-2">
+          <button className="hover:bg-[#43027E] bg-transparent border border-white rounded-full py-3 px-6 text-lg flex items-center justify-center space-x-2">
             <span>Learn more about savings</span>
           </button>
         </div>
         <div className="bg-[#2e014c] p-8 rounded-lg shadow-lg w-full grid grid-cols-1 sm:grid-cols-2 gap-8">
           {/* Card 1 */}
-          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg hover:bg-[#43027E]">
             <img src={access1} alt="Access" className="mb-2" />
             <div className="px-4 sm:px-12">
               <h2 className="text-2xl font-bold mb-6">DIB</h2>
@@ -34,7 +34,7 @@ const Savings = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg hover:bg-[#43027E]">
             <img src={access2} alt="Access" className="mb-2" />
             <div className="px-4 sm:px-12">
               <h2 className="text-2xl font-bold mb-6">Dreams</h2>
@@ -48,7 +48,7 @@ const Savings = () => {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg hover:bg-[#43027E]">
             <img src={access3} alt="Access" className="mb-2" />
             <div className="px-4 sm:px-12">
               <h2 className="text-2xl font-bold mb-6">Vault</h2>
@@ -63,7 +63,7 @@ const Savings = () => {
             </div>
           </div>
           {/* Card 4 */}
-          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-start text-left p-6 rounded-lg shadow-lg hover:bg-[#43027E]">
             <img src={access4} alt="Access" className="mb-2" />
             <div className="px-4 sm:px-12">
               <h2 className="text-2xl font-bold mb-6">Grit</h2>

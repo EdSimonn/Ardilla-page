@@ -57,7 +57,7 @@ const Expected = () => {
               <img src={sImg2} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
                 <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                  More investment opportunities
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Expected = () => {
               <img src={sImg3} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
                 <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                  More Savings
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Expected = () => {
               <img src={sImg4} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
                 <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                  Join a passionate wealth building community
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Expected = () => {
               <img src={sImg5} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
                 <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                  Free financial advice from vetted financial coaches
                 </p>
               </div>
             </div>
@@ -92,8 +92,8 @@ const Expected = () => {
             <div className="relative flex-shrink-0 max-w-full">
               <img src={sImg6} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
-                <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces text-[#019A34]">
+                  Build wealth without compromising your belief
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ const Expected = () => {
               <img src={sImg7} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
                 <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                  Pro budgeting guide
                 </p>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Expected = () => {
               <img src={sImg8} alt="" className="max-w-full" />
               <div className="absolute top-0 left-0 w-3/4 p-9">
                 <p className="m-0 text-lg font-semibold w-full whitespace-break-spaces">
-                  Access to more financial tools
+                  Get your unique SanID
                 </p>
               </div>
             </div>

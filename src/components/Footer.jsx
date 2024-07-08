@@ -38,20 +38,20 @@ const Footer = () => {
               <li>Financial Coach</li>
               <li>Halal</li>
               <li className="">
-                Budgetting{" "}
-                <span className="text-sm border rounded-full py-1 px-4 ml-3">
+                Budgetting
+                <span className="text-xs border rounded-full py-1 px-2 ml-2">
                   Coming Soon
                 </span>
               </li>
               <li>
-                Investment{" "}
-                <span className="text-sm border rounded-full py-1 px-4 ml-3">
+                Investment
+                <span className="text-xs border rounded-full py-1 px-2 ml-2">
                   Coming Soon
                 </span>
               </li>
               <li>
-                Insurance{" "}
-                <span className="text-sm border rounded-full py-1 px-4 ml-3">
+                Insurance
+                <span className="text-xs border rounded-full py-1 px-2 ml-2">
                   Coming Soon
                 </span>
               </li>
@@ -81,7 +81,10 @@ const Footer = () => {
             <h3 className="text-white font-bold text-xl">Developers</h3>
             <ul className="mt-3 text-[#bdc5ca] text-sm md:text-base">
               <li>
-                Connect API <span>Coming Soon</span>
+                Connect API
+                <span className="text-xs border rounded-full py-1 px-2 ml-2">
+                  Coming Soon
+                </span>
               </li>
             </ul>
           </div>

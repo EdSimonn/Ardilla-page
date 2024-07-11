@@ -6,7 +6,7 @@ const Testimonials = () => {
     <div className="bg-[#F3F4F6]">
       <div className="container mx-auto w-full max-w-screen-xl ss:p-10 p-4 py-6 lg:py-8 relative lg:px-36">
         <div className="flex flex-col items-start gap-4 my-12">
-          <h1 className="text-6xl font-semibold text-[#3D0072]">
+          <h1 className="md:text-6xl text-5xl font-semibold text-[#3D0072]">
             Don’t Take Our <span className="text-[#E8356D]">Word</span> For It
           </h1>
           <p className="text-[#3D0072]">

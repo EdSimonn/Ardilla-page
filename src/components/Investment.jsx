@@ -10,10 +10,10 @@ const Investment = () => {
       <div className="">
         <div className="container mx-auto max-w-screen-xl ss:p-10 p-4 py-6 lg:py-8 relative lg:px-36">
           <div className="lg:w-3/4 text-left items-center lg:text-left relative z-10 pt-10">
-            <h1 className="text-6xl font-bold text-[#3D0072]">
+            <h1 className="md:text-6xl text-5xl font-bold text-[#3D0072]">
               Unlimited <span className="text-[#00A789]">Investment</span>
             </h1>
-            <h1 className="text-6xl font-bold text-[#00A789] mt-2">
+            <h1 className="md:text-6xl text-5xl font-bold text-[#00A789] mt-2">
               Opportunities
             </h1>
             <p className="text-[#3D0072] mt-6 text-xl leading-loose w-3/4">

@@ -15,9 +15,9 @@ const Hero = () => {
       {/* Navbar */}
       <nav className="container mx-auto w-full max-w-screen-xl ss:p-10 p-4 py-6 lg:py-8 lg:px-36">
         <div className="flex justify-between items-center">
-          <div>
+          <a className="cursor-pointer" href="/">
             <img src={logo} alt="Logo" className="h-8" />
-          </div>
+          </a>
 
           {/* Hamburger menu for small screens */}
           <button
@@ -37,10 +37,10 @@ const Hero = () => {
 
           {/* Desktop menu */}
           <ul className="hidden sm:flex justify-between items-center gap-8 text-lg">
-            <li>Products</li>
-            <li>Business</li>
-            <li>Company</li>
-            <li>Learn</li>
+            <li className="cursor-pointer hover:text-[#8807F7]">Products</li>
+            <li className="cursor-pointer hover:text-[#8807F7]">Business</li>
+            <li className="cursor-pointer hover:text-[#8807F7]">Company</li>
+            <li className="cursor-pointer hover:text-[#8807F7]">Learn</li>
           </ul>
 
           <div className="hidden sm:block">
@@ -57,14 +57,14 @@ const Hero = () => {
           } p-6 bg-[#8807F7] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col mb-4">
-            <li>Products</li>
-            <li>Business</li>
-            <li>Company</li>
-            <li>Learn</li>
+            <li className="cursor-pointer hover:text-[#240053]">Products</li>
+            <li className="cursor-pointer hover:text-[#240053]">Business</li>
+            <li className="cursor-pointer hover:text-[#240053]">Company</li>
+            <li className="cursor-pointer hover:text-[#240053]">Learn</li>
           </ul>
 
           <div>
-            <button className="bg-[#240053] py-2 px-4 rounded-full">
+            <button className="bg-[#240053] hover:bg-white hover:text-[#240053] py-2 px-4 rounded-full">
               Create Account
             </button>
           </div>
@@ -72,14 +72,14 @@ const Hero = () => {
       </nav>
 
       <div className="container flex flex-col justify-center items-center mx-auto 2xl:max-w-[1240px] ss:p-10 p-4 pt-6 pb-0 lg:pt-8 lg:pb-0 ss:pb-0 sm:pb-0 text-center">
-        <h1 className="text-6xl xs:text-5xl ss:text-6xl md:text-7xl font-semibold">
+        <h1 className="text-5xl xs:text-5xl ss:text-6xl md:text-7xl font-semibold">
           Your Access To More
         </h1>
         <p className="text-xl xs:text-lg my-8 lg:px-36">
           Ardilla helps you save and invest in achieving your financial goals,
           we have the most flexible and seamless way to grow your funds
         </p>
-        <button className="mt-6 px-6 py-3 border border-[#fff] bg-white rounded-full text-[#3D0072] hover:bg-[#3D0072] hover:text-white flex items-center justify-center space-x-2">
+        <button className="my-4 md:px-6 px-4 md:py-3 py-2  border border-[#fff] bg-white rounded-full text-[#3D0072] hover:bg-[#3D0072] hover:text-white flex items-center justify-center space-x-2">
           Get Started
         </button>
         <div className="w-full flex justify-center">

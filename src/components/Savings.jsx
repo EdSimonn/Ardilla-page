@@ -6,7 +6,7 @@ const Savings = () => {
     <div className="bg-[#1e0238] text-white">
       <div className="container mx-auto w-full max-w-screen-xl ss:p-10 p-4 py-6 lg:py-8 relative lg:px-36">
         <div className="text-left my-16">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl md:text-6xl sm:text-5xl  font-bold mb-4">
             Access More With Your Money
           </h1>
           <p className="md:w-3/4 w-full text-lg sm:text-xl md:text-lg mb-6">
